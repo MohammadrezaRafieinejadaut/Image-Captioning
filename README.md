@@ -8,10 +8,11 @@ This repository contains an exploratory image-captioning project implemented in 
 
 Only the following project artifacts are identified:
 
-- `Image_Captioning.ipynb` — notebook containing exploratory analysis, model implementation, training, and evaluation.
+- 'Notebook/Image_Captioning.ipynb' contains the project’s analysis, ViT–GPT-2 implementation, training, inference, and evaluation.
 - `model.pt` — optional checkpoint produced by the notebook; it may not be present in every copy of the project.
+- 'Dataset/' folder contains instructions for downloading and preparing Flickr8k. The dataset itself is not included in this repository.
+- 'Requirements.txt' lists the Python packages needed to run the notebook.
 
-The notebook also contains earlier, separate legacy RNN/tokenizer work and exploratory experiments. These should not be confused with the ViT–GPT-2 approach described below. No `requirements.txt` is identified as part of the project.
 
 ## Dataset and exploratory analysis
 
