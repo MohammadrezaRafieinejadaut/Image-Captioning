@@ -1,0 +1,36 @@
+# requirements.txt for Image_Captioning.ipynb
+#
+# Note: this notebook uses PyTorch, torchvision and torchtext together; their
+# versions must come from a matching, mutually compatible environment. No
+# specific Python or PyTorch version is pinned here on purpose.
+#
+# Core deep learning
+torch
+torchvision
+transformers
+torcheval
+# torchtext is only needed by the legacy cells (51-53), but the notebook imports it
+torchtext
+# torchmetrics is imported in the notebook but not actually used
+torchmetrics
+# Explicit pip install required by torchtext for its legacy data pipeline
+portalocker>=2.0.0
+#
+# Text processing / NLP utilities
+nltk
+#
+# Scientific computing and data handling
+numpy
+pandas
+#
+# Plotting
+matplotlib
+#
+# Images
+Pillow
+#
+# Progress bars
+tqdm
+#
+# Optional experiment tracking (installed for tracking runs)
+wandb
